@@ -4,6 +4,8 @@
 
 This project implements a GPT-style transformer language model from scratch in PyTorch, inspired by Andrej Karpathy’s nanoGPT and the original Transformer architecture. The model is designed for autoregressive text generation and can be trained on any character- or token-level dataset. The implementation closely follows modern best practices in transformer design, including multi-head self-attention, residual connections, pre-layer normalization, and learned positional embeddings.
 
+Trained over text -tinyShakespeare data.
+
 ## Model Architecture
 
 - **Embedding Layer:**  
@@ -47,7 +49,7 @@ This project implements a GPT-style transformer language model from scratch in P
 | [GPT-2: Language Models are Unsupervised Multitask Learners (Radford et al., 2019)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | LayerNorm placement, causal masking        |
 | [nanoGPT (Andrej Karpathy, 2023)](https://github.com/karpathy/nanoGPT)                                                | Minimal, educational GPT implementation    |
 | [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)                                                          | Deep learning framework and API reference  |
-
+| [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)                                                          | Residual learning framework to ease the training of networks that are substantially deeper  |
 ## Features
 
 - Modern transformer block design (pre-norm, residuals)
@@ -69,6 +71,7 @@ This project implements a GPT-style transformer language model from scratch in P
 
 - [ ] Add training/validation loss curve graph
 - [ ] Add sample text generations
+- [ ] Still need to work on the increasing  the Accuracy of the model
 - [ ] Experiment with different datasets and hyperparameters
 
 ## Acknowledgements
