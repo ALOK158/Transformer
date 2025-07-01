@@ -50,6 +50,7 @@ Trained over text -tinyShakespeare data.
 | [nanoGPT (Andrej Karpathy, 2023)](https://github.com/karpathy/nanoGPT)                                                | Minimal, educational GPT implementation    |
 | [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)                                                          | Deep learning framework and API reference  |
 | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)                                                          | Residual learning framework to ease the training of networks that are substantially deeper  |
+
 ## Features
 
 - Modern transformer block design (pre-norm, residuals)
@@ -67,11 +68,19 @@ Trained over text -tinyShakespeare data.
 4. **Monitor loss and save checkpoints**
 5. **Generate text samples using the `generate` method**
 
+## Training and Validation Metrics
+
+### Training and Validation Loss
+![Training and Validation Loss](Train-Val-Loss.png)
+
+### Training and Validation Perplexity
+![Training and Validation Perplexity](Perplexity_Curve.png)
+
 ## To Do
 
-- [ ] Add training/validation loss curve graph
+- [x] Add training/validation loss curve graph
 - [ ] Add sample text generations
-- [ ] Still need to work on the increasing  the Accuracy of the model
+- [ ] Still need to work on the increasing the accuracy of the model
 - [ ] Experiment with different datasets and hyperparameters
 
 ## Acknowledgements
